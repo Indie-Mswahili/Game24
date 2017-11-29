@@ -1,0 +1,8 @@
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\bin\Debug\netcoreapp1.1\Game24.deps.json
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\bin\Debug\netcoreapp1.1\Game24.runtimeconfig.json
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\bin\Debug\netcoreapp1.1\Game24.runtimeconfig.dev.json
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\bin\Debug\netcoreapp1.1\Game24.dll
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\bin\Debug\netcoreapp1.1\Game24.pdb
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\obj\Debug\netcoreapp1.1\Game24.AssemblyInfo.cs
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\obj\Debug\netcoreapp1.1\Game24.dll
+C:\Users\mikey\Desktop\Coding Dojo\dojo_stack\C#\Game24\obj\Debug\netcoreapp1.1\Game24.pdb
