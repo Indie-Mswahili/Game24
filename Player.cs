@@ -43,43 +43,86 @@ namespace Game24
         {
             foreach (Card c in Hand)
             {
-                if(c.Suit == "Hearts")
-                {
-                    System.Console.Write($@".------.                                            
-                                            |{c.StringVal}_  _ |
-                                            |( \/ )|
-                                            | \  / |
-                                            |  \/ {c.StringVal}|
-                                            '------'");
+                if(c.Suit == "Hearts"){
+                    if(c.Val == 10){
+                        System.Console.Write($@"
+.------.                                    
+|{c.StringVal}  _ |
+|( \/ )|
+| \  / |
+|  \/{c.StringVal}|
+'------'");
+                    }
+                    else{
+                        System.Console.Write($@"
+.------.                                    
+|{c.StringVal}_  _ |
+|( \/ )|
+| \  / |
+|  \/ {c.StringVal}|
+'------'");
+                    }
                 }
-                if(c.Suit == "Diamonds")
-                {
-                    System.Console.Write($@".------.
-                                            |{c.StringVal} /\  |
-                                            | /  \ |
-                                            | \  / |
-                                            |  \/ {c.StringVal}|
-                                            '------'");
+                if(c.Suit == "Diamonds"){
+                    if(c.Val == 10){
+                        System.Console.Write($@"
+.------.
+|{c.StringVal}/\  |
+| /  \ |
+| \  / |
+|  \/{c.StringVal}|
+'------'");
+                    }
+                    else{
+                        System.Console.Write($@"
+.------.
+|{c.StringVal} /\  |
+| /  \ |
+| \  / |
+|  \/ {c.StringVal}|
+'------'");
+                    }
                 }
-                if(c.Suit == "Clubs")
-                {
-                    System.Console.Write($@".------.
-                                            |{c.StringVal} _   |
-                                            | ( )  |
-                                            |(_x_) |
-                                            |  Y  {c.StringVal}|
-                                            '------'");
+                if(c.Suit == "Clubs"){
+                    if(c.Val == 10){
+                        System.Console.Write($@"
+.------.
+|{c.StringVal}_   |
+| ( )  |
+|(_x_) |
+|  Y {c.StringVal}|
+'------'");
+                    }
+                    else{
+                        System.Console.Write($@"
+.------.
+|{c.StringVal} _   |
+| ( )  |
+|(_x_) |
+|  Y  {c.StringVal}|
+'------'");
+                    }
                 }
-                if(c.Suit == "Spades")
-                {
-                    System.Console.Write($@".------.
-                   |{c.StringVal} .   |
-                   | / \  |
-                   |(_,_) |
-                   |  I  {c.StringVal}|
-                   '------'");
+                if(c.Suit == "Spades"){
+                    if(c.Val == 10){
+                        System.Console.Write($@"
+.------.
+|{c.StringVal}.   |
+| / \  |
+|(_,_) |
+|  I {c.StringVal}|
+'------'");
+                    }
+                    else{
+                        System.Console.Write($@"
+.------.
+|{c.StringVal} .   |
+| / \  |
+|(_,_) |
+|  I  {c.StringVal}|
+'------'");
+                    }
                 }    
-                
             }
             System.Console.WriteLine();
             foreach (Card c in Hand)

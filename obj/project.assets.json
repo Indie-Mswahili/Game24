@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\Game24.csproj",
+      "projectUniqueName": "c:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\Game24.csproj",
       "projectName": "Game24",
-      "projectPath": "C:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\Game24.csproj",
-      "outputPath": "C:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\obj\\",
+      "projectPath": "c:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\Game24.csproj",
+      "outputPath": "c:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Game24.dll": "C:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\bin\\placeholder\\netcoreapp1.1\\Game24.dll"
+        "lib/netcoreapp1.1/Game24.dll": "c:\\Users\\mikey\\Desktop\\Coding Dojo\\dojo_stack\\C#\\Game24\\bin\\placeholder\\netcoreapp1.1\\Game24.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
